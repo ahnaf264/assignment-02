@@ -189,4 +189,90 @@ justify-items: center;
 /* badge section ends */
 
 
+/* deal item section */
+
+.deal-title{
+    font-size: 3.13rem;
+    text-align: center;
+}
+.deal-description{
+
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+
+.deal-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 28px;
+    
+    
+}
+.deal-items-1{
+    background-image: url(/assets/deal-bloom.png) ;
+
+    text-align: center;
+ color: #FFFFFF;
+    border: none;
+    border-radius: 14px;
+    width: 367px;
+    height: 197px;
+    font-size: 1.3rem;
+ font-weight: bold;
+ display: flex;
+ flex-direction: column;
+ 
+ justify-content: center;
+ align-items: center;
+}
+
+.deal-items-2{
+    background-image: url(/assets/deal-ana.png);
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 14px;
+    width: 367px;
+    height: 197px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+ flex-direction: column;
+ 
+ justify-content: center;
+ align-items: center;
+}
+.deal-items-3{
+    background-image: url(/assets/deal-zabo.png);
+width: 100%;
+grid-row: span 2;
+text-align: center;
+color: #FFFFFF;
+width: 753px;
+height: 423.12px;
+ border-radius: 14px;
+ display: flex;
+ flex-direction: column;
+ 
+ justify-content: center;
+ align-items: center;
+ font-size: 2.5rem;
+ font-weight: bold;
+}
+
+
+.deal-card-title{
+   margin: 0;
+
+}
+.deal-card-description{
+    text-decoration: underline;
+    margin: 0;
+    padding-top: 26px;
+}
+    
+
+
 
