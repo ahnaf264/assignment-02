@@ -81,6 +81,18 @@ header{
     color: black;
 }
 
+section{
+    margin-bottom: 120px;
+}
+.card-button{
+    background-color: #E95A08;
+    width: 270px;
+    height: 50px;
+    color: white;
+    border: none;
+   
+}
+
 /* shared section ends */
 
 /* cards section starts */
@@ -119,6 +131,7 @@ justify-items: center;
     font-weight: 400;
     font-size: 1.3rem;
     margin: 20px 0;
+    
 }
 .card-price{
     font-weight: bold;
@@ -127,5 +140,53 @@ justify-items: center;
 }
 
 /* card section ends */
+
+
+
+/* badge section start */
+
+.badge-section
+{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.badge-container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+}
+
+.badge{
+
+    width: 286px;
+    height: 286px;
+   margin-left: 347px;
+   margin-bottom: -150px;
+   position: relative;
+
+}
+
+.badge-title{
+    font-weight: bold;
+    font-size: 3.12rem;
+}
+.badge-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+   
+}
+.badge-list-item{
+    padding-bottom: 20px;
+
+}
+
+
+ 
+/* badge section ends */
+
 
 
