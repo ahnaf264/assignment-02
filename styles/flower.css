@@ -43,7 +43,7 @@ header{
 .nav-list{
     display: flex;
     gap: 30px;
-    color: #8987A1 ;
+    color: #000000 ;
 
     list-style: none;
     
@@ -194,11 +194,14 @@ justify-items: center;
 .deal-title{
     font-size: 3.13rem;
     text-align: center;
+    font-weight: bold;
 }
 .deal-description{
 
     font-size: 1.4rem;
     text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  
     
 }
 
@@ -334,7 +337,7 @@ footer{
     max-width: 1440px;
     max-height: 348px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer-links{
     display: grid;
@@ -350,6 +353,64 @@ footer{
     gap: 10px;
 }
 
+
+/* responsive section */
+
+
+@media (max-width: 768px) {
+    .header-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2.5rem;
+    }
+    .banner-description{
+        font-size: 1rem;
+    }
+    .card{
+        grid-template-columns: 1fr;
+    }
+    .badge-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .badge{
+       display: none;
+    }
+    .badge-title{
+        font-size: 2rem;
+    }
+    .badge-description{
+        font-size: 1rem;
+    }
+    .deal-card{
+        grid-template-columns: 1fr;
+    }
+    .deal-items-1, .deal-items-2, .deal-items-3{
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+    }
+    .colorful-bunch{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .colorful-bunch-title{
+        font-size: 2rem;
+        padding-top: 100px;
+    }
+    .email-input{
+        width: 100%;
+      
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
 
 
 
